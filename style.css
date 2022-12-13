@@ -476,7 +476,7 @@ nav>ul>li>a:hover{
         background-color: #0d0e10;
         text-align: center;
         height: 600px;
-        width:800px;
+        width:860px !important;
         padding: 0px 30px;
         float: none !important;
         
