@@ -1,7 +1,8 @@
 *{
     padding: 0%;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
+    
 }
 label.logo{
     margin-left: 20px;
@@ -603,6 +604,15 @@ nav>ul>li>a:hover{
     margin: auto;
     width:860px !important;
  }
+ .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
  
  .text {
     float:left;
@@ -610,6 +620,7 @@ nav>ul>li>a:hover{
     font-size: 20px;
     padding: 5px 0px;
     text-align: center;
+    
   }
   .text>a{
    text-decoration:none;
@@ -629,15 +640,6 @@ nav>ul>li>a:hover{
     font-size: 30px;
     text-align: center !important;
 }
-     .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top:35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-  }
 .team-names  h5{
     font-size: 35px;
     text-align: center !important;
@@ -651,7 +653,7 @@ nav>ul>li>a:hover{
    margin: 0;
    padding: 0;
    height: 500px !important;
-   
+   z-index: 9;
 }
 .intro-content{
    margin-top: 80px;
@@ -711,3 +713,4 @@ nav>ul>li>a:hover{
 }
   
 }
+
