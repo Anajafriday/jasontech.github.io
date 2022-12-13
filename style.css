@@ -439,6 +439,7 @@ nav>ul>li>a:hover{
 }
 
 }
+
 @media screen and (max-width:750px) {
    
 .team-content{
@@ -452,6 +453,14 @@ nav>ul>li>a:hover{
     
     
 }
+.imager{
+    background: url(images/folded\ man\ tech.jpg);
+    width:860px !important;
+    height: 700px;
+    background-size: cover !important;
+    background-position:center !important;
+    position: relative;
+}
 
     .imager-text h2{
         font-size: 20px;
@@ -459,15 +468,15 @@ nav>ul>li>a:hover{
 
 
 
-}
-@media screen and (max-width:450px){
+
+/* @media screen and (max-width:450px){ */
     
     /* footeter */
     .main-footer{
         background-color: #0d0e10;
         text-align: center;
         height: 600px;
-        width: 183%;
+        width:800px;
         padding: 0px 30px;
         float: none !important;
         
@@ -516,21 +525,22 @@ nav>ul>li>a:hover{
         text-transform: uppercase;
         font-size: 40px;
         line-height: 50px;
-    } */
+    } 
 
 
 
-    .ceo{
-        width: 500px;
-        margin-left: 100px !important;
+    .ceo-qoute{
+        width:650px;
+        margin-left:100px!important;
     }
     
         .ceo-qoute p{
-            width: 500px;
+            width:80%;
             text-indent: 20px;
             font-size: 35px;
             color: red;
             padding: 30px;
+            
         }
         .ceo-text ,h3{
         font-size: 30px;
@@ -561,6 +571,7 @@ nav>ul>li>a:hover{
             font-weight: bold;
         }
         
+        
         /* testimonies  */
 .testi{
     background-color: #fff;
@@ -571,6 +582,7 @@ nav>ul>li>a:hover{
     display:block;
     margin-top: 30px;
     margin-left: 40px;
+    width: 350px;
     
     
 }
@@ -589,9 +601,26 @@ nav>ul>li>a:hover{
     border: none;
     background-color: darkgray;
     margin: auto;
-    width: 200%;
+    width:860px !important;
  }
  
+ .text {
+    float:left;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  .text>a{
+   text-decoration:none;
+   color:darkblue;
+   font-size: 30px;
+   font: italic;
+   margin-left: 15px;
+   margin-bottom: 15px;
+   
+   
+  }
  .team-names{
     
     color: #fff;
@@ -609,15 +638,16 @@ nav>ul>li>a:hover{
 .intro-md1{
     background:none;
    position: relative;
-   margin-bottom:390% !important;
+   margin-bottom:300% !important;
    margin: 0;
    padding: 0;
-   height: 0;
+   height: 500px !important;
+   z-index: 9;
 }
 .intro-content{
-   margin-top: 40px;
-
-   margin-left: 50px;
+   margin-top: 80px;
+  width:800px;
+   margin-left:29px;
    height: 300px;
    box-shadow: 0px 5px 10px 5px gray;
    display: block !important;
@@ -638,7 +668,7 @@ nav>ul>li>a:hover{
  /* about */
  .about-image{
     background: url(images/workintechoffice.jpg);
-    width: 200%;
+    width:860px !important;
     height: 800px;
     background-size: cover !important;
     background-position:center !important;
@@ -670,9 +700,5 @@ nav>ul>li>a:hover{
     
     
 }
-        
-    }
-
-
-
-
+  
+}
